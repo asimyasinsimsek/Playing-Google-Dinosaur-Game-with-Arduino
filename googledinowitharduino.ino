@@ -1,11 +1,9 @@
 #include <Servo.h>
 Servo myservo;
-int deger;
 int ldrPin = A0;
 int servoPin = 8;
 int ldrEsikDegeri = 310;
-/*LDR'nizin, oyunda engelleri algılayabilmesi için eşik değerini
-kendinize göre değiştirebilirsiniz.*/
+/*you should change this value by trying it yourself*/
 
 void setup()
 {
